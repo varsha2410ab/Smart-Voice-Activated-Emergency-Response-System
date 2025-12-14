@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SmartVoice - Emergency Demo</title>
+    <style>
+      body { font-family: Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; }
+      .card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.03); }
+      button { padding: 10px 16px; font-size: 16px; border-radius: 6px; cursor: pointer; }
+      #status { margin-top: 12px; font-weight: bold; }
+    </style>
+  </head>
+  <body>
+    <h1>SmartVoice-Activated Emergency Response System (Demo)</h1>
+    <div class="card">
+      <p>This demo uses your browser's <strong>Speech Recognition</strong> (Web Speech API) and <strong>Geolocation API</strong>. When you say the trigger word (<em>help</em> or <em>emergency</em>), the page will send an alert to the server which will email your emergency contact.</p>
+
+      <p>
+        <label>Emergency contact email: <input id="recipient" type="email" placeholder="someone@example.com" style="width:60%"></label>
+      </p>
+
+      <p>
+        <button id="startBtn">Start Listening</button>
+        <button id="stopBtn" disabled>Stop Listening</button>
+        <button id="manualBtn">Send Manual Alert</button>
+      </p>
+
+      <p id="status">Status: idle</p>
+      <p id="last">Last transcript: —</p>
+      <p id="result"></p>
+    </div>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
