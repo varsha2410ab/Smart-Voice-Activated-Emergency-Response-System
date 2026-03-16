@@ -1,33 +1,21 @@
-A voice-controlled emergency response system that listens for distress, understands the situation, and instantly alerts trusted contacts with your location. Designed to make personal safety smarter, faster, and more accessible.
+# SmartVoice-Activated Emergency Response System
 
-Features
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat) ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
-Voice Detection: Continuously listens for emergency phrases.
+## 🚨 One-liner
 
-Emergency Classification: Determines the type of emergency.
+AI-powered **voice-controlled emergency alert system** that detects distress, classifies the emergency, and instantly notifies trusted contacts with your real-time location.
 
-Instant Alerts: Sends SMS/email with your real-time location to trusted contacts.
+---
 
-Easy to Use: Minimal setup, works in background.
+## 🛠 Features
 
-Files in Repository
+- **Voice Detection:** Continuously listens for emergency phrases via microphone.  
+- **Emergency Classification:** Determines the type of emergency using a trained ML model.  
+- **Instant Alerts:** Sends SMS/email with your real-time location to trusted contacts.  
+- **User-Friendly:** Minimal setup, works silently in the background.  
+- **Extensible:** Easy to train new phrases or integrate additional alert methods.
 
-smart_emergency_system.py → Main program for running the system
+---
 
-train_model.py → Script for training the emergency detection model
-
-test_model.py → Script for testing the trained model
-
-ml_model.pkl → Saved machine learning model
-
-vectorizer.pkl → Saved text vectorizer
-
-How to Run
-
-Clone this repository
-
-Create a virtual environment: python -m venv venv
-
-Install requirements: pip install -r requirements.txt
-
-Run the system: python smart_emergency_system.py
+## 📂 Project Structure
