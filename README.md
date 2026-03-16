@@ -1,21 +1,23 @@
 # SmartVoice-Activated Emergency Response System
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat) ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+## One-liner
+AI-powered **voice-controlled emergency alert system** that detects distress, classifies the emergency, and instantly alerts trusted contacts with your real-time location.
 
-## 🚨 One-liner
+## Features
+- Continuously listens for emergency phrases via microphone  
+- Classifies type of emergency using a trained ML model  
+- Sends email/SMS alerts with real-time location  
+- Minimal setup, works silently in the background  
+- Can be extended with new phrases or alert methods  
 
-AI-powered **voice-controlled emergency alert system** that detects distress, classifies the emergency, and instantly notifies trusted contacts with your real-time location.
+## Project Structure
+smart_emergency_system.py # Main program
+train_model.py # Script to train the ML model
+test_model.py # Script to test the model
+ml_model.pkl # Saved trained model
+vectorizer.pkl # Saved text vectorizer
+venv/ # Virtual environment
+README.md # This file
 
----
-
-## 🛠 Features
-
-- **Voice Detection:** Continuously listens for emergency phrases via microphone.  
-- **Emergency Classification:** Determines the type of emergency using a trained ML model.  
-- **Instant Alerts:** Sends SMS/email with your real-time location to trusted contacts.  
-- **User-Friendly:** Minimal setup, works silently in the background.  
-- **Extensible:** Easy to train new phrases or integrate additional alert methods.
-
----
-
-## 📂 Project Structure
+## License
+MIT License
