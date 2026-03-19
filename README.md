@@ -1,7 +1,5 @@
 # SmartVoice-Activated Emergency Response System
 
-![Project Preview](https://github.com/user-attachments/assets/9ba7b82c-1158-46e9-a21d-dfa0061513c1)
-
 This AI-powered voice-controlled emergency response system listens for distress commands and automatically alerts trusted contacts with your real-time location. The system combines hands-free voice recognition, ML-based classification, GPS tracking, and email/SMS notifications to provide a practical solution for real-world emergencies.
 
 ---
