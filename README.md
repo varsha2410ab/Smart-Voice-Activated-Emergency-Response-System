@@ -34,15 +34,10 @@ This will start the system, which continuously listens for emergency commands an
 
 ## Output
 The system provides real-time notifications and logs when an emergency command is detected. Below are the screenshots illustrating the workflow:
+![IMG1](https://github.com/user-attachments/assets/9ba7b82c-1158-46e9-a21d-dfa0061513c1)
+<img width="1600" height="531" alt="IMG2" src="https://github.com/user-attachments/asset<img width="1600" height="773" alt="IMG3" src="https://github.com/user-attachments/assets/cee8e288-fbb0-4431-b828-bfa8f1844c6c" />
+s/598f6504-bd78-419d-918c-c12bd407b2cf" />
 
-![Emergency Detected Pop-up](IMG1.png)  
-*Primary image for LinkedIn preview*
-
-![Terminal Output](IMG2.png)  
-*Shows system detecting emergency and sending alert via email*
-
-![Email Alert](IMG3.png)  
-*Received email alert with real-time location*
 
 ## Technologies Used
 - Python  
