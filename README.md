@@ -25,16 +25,24 @@ This AI-powered voice-controlled emergency response system listens for distress 
 
 ---
 
-## How to Run
-1. Activate virtual environment:  
-```bash
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+## Run the Project
+Run the main program:
 
-2. Run the main program:
 python smart_emergency_system.py
 
-## Tech Stack
-Python, Flask, Speech Recognition, NLP, Geolocation APIs
+This will start the system, which continuously listens for emergency commands and sends alerts automatically to designated contacts.
 
 ## Output
+The system provides real-time notifications and logs when an emergency command is detected. A screenshot of the running system is shown below:
+
 ![SmartVoice System Screenshot](screenshot.png)
+
+## Technologies Used
+- Python  
+- Flask  
+- Speech Recognition  
+- NLP  
+- Geolocation APIs
+
+## License
+MIT License
