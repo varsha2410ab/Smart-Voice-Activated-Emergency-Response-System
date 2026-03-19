@@ -51,6 +51,3 @@ Email Alert:
 - Speech Recognition  
 - NLP  
 - Geolocation APIs
-
-## License
-MIT License
