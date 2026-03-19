@@ -34,9 +34,15 @@ This will start the system, which continuously listens for emergency commands an
 
 ## Output
 The system provides real-time notifications and logs when an emergency command is detected. Below are the screenshots illustrating the workflow:
+
+Emergency Detected Pop-up:
 ![IMG1](https://github.com/user-attachments/assets/9ba7b82c-1158-46e9-a21d-dfa0061513c1)
-<img width="1600" height="531" alt="IMG2" src="https://github.com/user-attachments/asset<img width="1600" height="773" alt="IMG3" src="https://github.com/user-attachments/assets/cee8e288-fbb0-4431-b828-bfa8f1844c6c" />
-s/598f6504-bd78-419d-918c-c12bd407b2cf" />
+
+Terminal Output:
+<img width="1600" height="531" alt="IMG2" src="https://github.com/user-attachments/assets/b3d2b125-3acf-4663-8f78-59cd18c20bcc" />
+
+Email Alert:
+<img width="1600" height="773" alt="IMG3" src="https://github.com/user-attachments/assets/647f4fc1-5892-4d2b-b6db-ce965b023b5f" />
 
 
 ## Technologies Used
