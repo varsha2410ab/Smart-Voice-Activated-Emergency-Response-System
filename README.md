@@ -33,9 +33,16 @@ python smart_emergency_system.py
 This will start the system, which continuously listens for emergency commands and sends alerts automatically to designated contacts.
 
 ## Output
-The system provides real-time notifications and logs when an emergency command is detected. A screenshot of the running system is shown below:
+The system provides real-time notifications and logs when an emergency command is detected. Below are the screenshots illustrating the workflow:
 
-![SmartVoice System Screenshot](screenshot.png)
+![Emergency Detected Pop-up](IMG1.png)  
+*Primary image for LinkedIn preview*
+
+![Terminal Output](IMG2.png)  
+*Shows system detecting emergency and sending alert via email*
+
+![Email Alert](IMG3.png)  
+*Received email alert with real-time location*
 
 ## Technologies Used
 - Python  
